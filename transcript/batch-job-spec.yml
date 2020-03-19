@@ -18,4 +18,4 @@ recordReaderSpec:
 tableSpec:
   tableName: 'transcript'
 pinotClusterSpecs:
-  - controllerURI: 'http://localhost:9002'
+  - controllerURI: 'http://localhost:9001'

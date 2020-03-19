@@ -3,16 +3,16 @@
   "segmentsConfig" : {
     "timeColumnName": "timestamp",
     "timeType": "MILLISECONDS",
-    "replication" : "1",
+    "replication" : "2",
     "schemaName" : "transcript"
   },
   "tableIndexConfig" : {
     "invertedIndexColumns" : [],
-    "loadMode"  : "HEAP"
+    "loadMode"  : "MMAP"
   },
   "tenants" : {
-    "broker":"demoOne",
-    "server":"demoOne"
+    "broker":"DefaultTenant",
+    "server":"DefaultTenant"
   },
   "tableType":"OFFLINE",
   "metadata": {}
