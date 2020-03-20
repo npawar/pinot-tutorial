@@ -19,10 +19,14 @@ Download the latest release from [Apache Pinot Downloads](https://pinot.apache.o
 ```
 # make a directory for the tutorial
 cd
-mkdir pinot_tutorial
-cd pinot_tutorial
+mkdir pinot-tutorial
+cd pinot-tutorial
+# download the examples
+git clone https://github.com/npawar/pinot-tutorial
+# untar pinot
 cp ~/Downloads/apache-pinot-incubating-0.3.0-bin.tar.gz .
 tar -zxvf apache-pinot-incubating-0.3.0-bin.tar.gz
+# navigate to launcher scripts
 cd apache-pinot-incubating-0.3.0-bin
 ```
 
