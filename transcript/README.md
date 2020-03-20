@@ -7,6 +7,8 @@ Here's instructions to upload batch data into Pinot
 ### Set BASE_DIR
 
 ```
+pwd
+<home_dir>/pinot_tutorial/pinot-tutorial/transcript
 BASE_DIR=`pwd`
 ```
 
