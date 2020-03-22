@@ -13,6 +13,7 @@ BASE_DIR=`pwd`
 ```
 
 ### Upload batch table config and schema
+Using the launcher script in `apache-pinot-incubating-0.3.0-bin` directory form the Pinot release
 
 ```
 bin/pinot-admin.sh AddTable \
@@ -23,6 +24,8 @@ bin/pinot-admin.sh AddTable \
 ```
 
 ### Upload data
+Make sure to replace `$BASE_DIR` in the `batch-job-spec.yml` file with the right paths in `inputDir` and `outputDir` .
+Using the launcher script in `apache-pinot-incubating-0.3.0-bin` directory form the Pinot release
 
 ```
 bin/pinot-admin.sh LaunchDataIngestionJob \
@@ -37,7 +40,7 @@ Explore the data using Query Console on the controller localhost:9001
 Here's instructions to ingest data from a kafka topic.
 
 ### Start Kafka
-
+Using the launcher script in `apache-pinot-incubating-0.3.0-bin` directory form the Pinot release
 ```
 bin/pinot-admin.sh  StartKafka -zkAddress=localhost:2181/kafka -port 9876
 ```
@@ -52,6 +55,7 @@ bin/kafka-topics.sh --create --bootstrap-server localhost:9876 --replication-fac
 ```
 
 ### Upload realtime table config and schema
+Using the launcher script in `apache-pinot-incubating-0.3.0-bin` directory form the Pinot release
 
 ```
 bin/pinot-admin.sh AddTable \
@@ -64,6 +68,7 @@ bin/pinot-admin.sh AddTable \
 The realtime table begins to ingest from the Kafka topic immediately. Let's publish some events to the kafka topic
 
 ### Publish data to the Kafka topic
+Using the scripts in the kafka download,
 ```
 bin/kafka-console-producer.sh \
     --broker-list localhost:9876 \
