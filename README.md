@@ -9,7 +9,7 @@ Originally built at LinkedIn, Pinot can power a variety of analytical applicatio
 
 Pinot is also used at companies Uber, Microsoft, Weibo, Factual, Slack, and many more
 
-This repo contains sample files used in the tutorial video [How to setup a Pinot cluster](). All the commands used in the video can be found below. 
+This repo contains sample files used in the tutorial video [How to setup a Pinot cluster](https://www.youtube.com/watch?v=cNnwMF0pOJ8). All the commands used in the video can be found below. 
 
 ## How to setup a Pinot cluster
 In the tutorial, we will setup a Pinot cluster with the following components
